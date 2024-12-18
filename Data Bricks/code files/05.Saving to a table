@@ -1,0 +1,6 @@
+// Lab - Saving to a table
+
+df.write.saveAsTable("logdata")
+
+%sql
+SELECT * FROM logdata

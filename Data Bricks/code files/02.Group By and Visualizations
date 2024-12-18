@@ -1,0 +1,8 @@
+// Lab - Group By and Visualizations
+
+display(df.groupBy(df("Operationname")).count())
+
+display(df.groupBy(df("Operationname")).count().alias("Count").filter(col("Count") > 100))
+
+
+
